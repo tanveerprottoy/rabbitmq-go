@@ -1,9 +1,10 @@
 package main
 
+import "txp/rabbitmq/app"
+
 func main() {
-	/* app := new(app.App)
-	app.InitComponents()
-	app.Run() */
+	app.Send()
+	app.Receive()
 }
 
 // Multiply just to check unit test
